@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nikhil Gadige - Web Developer, Programmer, Data Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/121d06b24e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Nikhil</span><br>Gadige From India</h1>
+            </div> 
+        </div>
+    </div>
+<!----------about---------  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user(4).png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Nikhil, a versatile software developer and Azure Data Engineer. Proficient in Python, Java, and JavaScript with a strong command of React, Angular, and Django, I craft seamless and efficient solutions. Skilled in Docker, Git, AWS, and Azure, I excel in data-driven environments, blending AI/ML integrations with user-centric design. Let’s innovate and transform ideas into impactful tech realities!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>   
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Proficiency in Python, Java, JavaScript, C++ </li>
+                            <li><span>Software Development</span><br>Experience with Agile, Scrum, Waterfall methodologies</li>
+                            <li><span>Web Development</span><br>Skills in HTML, CSS, JavaScript frameworks like React, Angular, Django, Node.js, Express.js</li>
+                            <li><span>Mobile Development</span><br>Android/iOS development using Kotlin, Swift, or Flutter</li>
+                            <li><span>Database Management</span><br>Knowledge of SQL, NoSQL databases like MongoDB, MySQL, PostgreSQL</li>
+                            <li><span>Cloud Technologies</span><br>Familiarity with AWS, Azure, Google Cloud Platform Services</li>
+                            <li><span>Testing and Debugging</span><br>Proficiency in JUnit, Selenium, Jest frameworks</li>
+                            <li><span>Data Structures and Algorithms</span><br>Strong understanding and application in problem-solving</li>
+                            <li><span>Security</span><br>Awareness of cybersecurity principles in software development</li>
+                            <li><span>Collaboration and Communication</span><br>Ability to work in teams, effective communication skills</li>
+                            <li><span>Problem-solving</span><br>Knack for identifying and solving complex problems</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Dec 2022 - Dec 2023</span><br>Software Engineer Trainee at Cisco Sytems, Inc.</li>
+                            <li><span>Jul 2021 - Aug 2021</span><br>Artificial Intelligence Intern at Pantech ProLabs India</li>
+                            <li><span>Apr 2021 - Jul 2021</span><br>Web App Development Intern at KGE Technologies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Fullstack Development Training at Coursera</li>
+                            <li><span>2022</span><br>Machine Learning Training at Coursera</li>
+                            <li><span>2022</span><br>B.Tech from Kakatiya University Telangana</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------services--------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Expertly sculpting bespoke and visually stunning websites that resonate with your brand's identity. My focus is on delivering intuitive, user-friendly interfaces, harmonizing beauty with ease of use, ensuring your website shines on every device.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Crafting seamless and intuitive digital experiences. From wireframes to polished designs, I focus on user-centric interfaces that marry aesthetics with functionality for exceptional usability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Creating engaging and intuitive mobile experiences. From concept to UI, I specialize in crafting user-friendly and visually appealing apps that resonate with your audience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/chat.webp">
+                    <div class="layer">
+                        <h3>AI ChatBot Using MERN Stack</h3>
+                        <p>An AI chatbot built with the MERN stack (MongoDB, Express.js, React, Node.js) delivers intelligent, interactive conversations using AI and NLP. It features a dynamic React interface, efficient Node.js server processing, and MongoDB for data management, enabling a responsive and smart conversational experience.</p>
+                        <a href="https://github.com/nikhilhack786/AI-CHATBOT/tree/master"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/gme.png">
+                    <div class="layer">
+                        <h3>Google-Meet Clone</h3>
+                        <p>A clone of Google Meet built using Next.js, featuring real-time video and audio calls, screen sharing, and chat functionalities.</p>
+                        <a href="https://github.com/nikhilhack786/google-meet-clone/tree/master"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/port.jpg">
+                    <div class="layer">
+                        <h3>Personal Portfolio website</h3>
+                        <p>A self-designed and developed portfolio website showcasing my professional skills, projects, and experience. Crafted using HTML, CSS, and JavaScript, it features a responsive layout, interactive elements, and a user-friendly design.</p>
+                        <a href="https://github.com/nikhilhack786/Personal-Portfolio#personal-portfolio"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------contact------------------ -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> nikhilgadige786@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9390949314</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/nikhil_22118/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nikhil-gadige-51ab79211/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Nikhil_Gadige.pdf" download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                       <input type="text" name="Name" placeholder="Your Name" required> 
+                       <input type="email" name="email" placeholder="Your Email" required>
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Nikhil. Made with <i class="fa-solid fa-heart"></i> all your love... </p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxJ0l4ubSLveGaDSJ8fZo4iPWB4MgUTwwPReP3EpvSPI8W7MP8dBdfJZxNeD-6VuUm_/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+    
+</body>
+</html>
